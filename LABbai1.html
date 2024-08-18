@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            color: #d14;
+        }
+        p {
+            margin: 10px 0;
+        }
+        a {
+            color: #0066cc;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Tutorial Summary</h1>
+
+    <h2>1. HTML Basic</h2>
+    <p>HTML (Hypertext Markup Language) is the standard language for creating web pages. An HTML document starts with <code>&lt;!DOCTYPE html&gt;</code> to define the document type, followed by the <code>&lt;html&gt;</code> element that contains all the content of the page.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My First HTML Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+    <h2>2. HTML Elements</h2>
+    <p>HTML elements are the basic building blocks of HTML pages. An element consists of a start tag, content, and an end tag.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;a href="https://www.example.com"&gt;This is a link.&lt;/a&gt;
+</code></pre>
+
+    <h2>3. HTML Attributes</h2>
+    <p>Attributes provide additional information about HTML elements. They are always included in the opening tag and usually come in name/value pairs like <code>name="value"</code>.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+&lt;img src="image.jpg" alt="Description of image"&gt;
+</code></pre>
+
+    <h2>4. HTML Headings</h2>
+    <p>HTML headings are used to define headings in an HTML document. There are six levels of headings, from <code>&lt;h1&gt;</code> (most important) to <code>&lt;h6&gt;</code> (least important).</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;h1&gt;Main Heading&lt;/h1&gt;
+&lt;h2&gt;Subheading&lt;/h2&gt;
+&lt;h3&gt;Sub-subheading&lt;/h3&gt;
+</code></pre>
+
+    <h2>5. HTML Paragraphs</h2>
+    <p>The <code>&lt;p&gt;</code> tag defines a paragraph in an HTML document.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+</code></pre>
+
+    <h2>6. HTML Styles</h2>
+    <p>HTML styles are used to add CSS (Cascading Style Sheets) directly within an HTML document using the <code>&lt;style&gt;</code> tag or by adding the <code>style</code> attribute to elements.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;p style="color:blue;"&gt;This is a blue paragraph.&lt;/p&gt;
+&lt;style&gt;
+    body {font-family: Arial, sans-serif;}
+&lt;/style&gt;
+</code></pre>
+
+    <h2>7. HTML Formatting</h2>
+    <p>HTML formatting tags are used to apply formatting to text, such as bold or italics.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;b&gt;Bold text&lt;/b&gt;
+&lt;i&gt;Italic text&lt;/i&gt;
+&lt;u&gt;Underlined text&lt;/u&gt;
+</code></pre>
+
+    <h2>8. HTML Quotations</h2>
+    <p>The <code>&lt;blockquote&gt;</code> tag is used to define a block of text that is quoted from another source. The <code>&lt;q&gt;</code> tag is used for inline quotations.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;blockquote&gt;
+    This is a block quote.
+&lt;/blockquote&gt;
+
+&lt;q&gt;This is an inline quote.&lt;/q&gt;
+</code></pre>
+
+    <h2>9. HTML Comments</h2>
+    <p>Comments in HTML are not displayed in the browser and are used to add notes to the code. They are enclosed in <code>&lt;!-- --&gt;</code>.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;!-- This is a comment --&gt;
+</code></pre>
+
+    <h2>10. HTML Colors</h2>
+    <p>HTML colors can be defined using names, hexadecimal values, RGB values, or HSL values.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;p style="color:red;"&gt;This text is red.&lt;/p&gt;
+&lt;p style="color:#00FF00;"&gt;This text is green.&lt;/p&gt;
+&lt;p style="color:rgb(0,0,255);"&gt;This text is blue.&lt;/p&gt;
+</code></pre>
+
+    <h2>11. HTML CSS</h2>
+    <p>CSS (Cascading Style Sheets) is used to style and layout HTML pages. CSS can be applied inline, internally within a <code>&lt;style&gt;</code> tag, or externally via a separate CSS file.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;style&gt;
+    p {
+        color: red;
+        font-size: 20px;
+    }
+&lt;/style&gt;
+</code></pre>
+
+    <h2>12. HTML Links</h2>
+    <p>The <code>&lt;a&gt;</code> tag defines a hyperlink, which is used to link from one page to another.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+</code></pre>
+
+    <h2>13. HTML Images</h2>
+    <p>The <code>&lt;img&gt;</code> tag is used to embed images in an HTML page.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;img src="image.jpg" alt="Description of image"&gt;
+</code></pre>
+
+    <h2>14. HTML Tables</h2>
+    <p>Tables are defined using the <code>&lt;table&gt;</code> tag. Rows are defined with <code>&lt;tr&gt;</code>, and table headers and data are defined with <code>&lt;th&gt;</code> and <code>&lt;td&gt;</code>, respectively.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+
+    <h2>15. HTML Lists</h2>
+    <p>Lists can be ordered (<code>&lt;ol&gt;</code>) or unordered (<code>&lt;ul&gt;</code>). List items are defined with the <code>&lt;li&gt;</code> tag.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<h2>16. HTML Block &amp; Inline</h2>
+    <p>Block-level elements take up the full width available, with a new line before and after the element. Inline elements only take up as much width as necessary and do not start on a new line.</p>
+    <h3>Example:</h3>
+    <pre><code>&lt;div&gt;This is a block-level element.&lt;/div&gt;
+&lt;span&gt;This is an inline element.&lt;/span&gt;
+</code></pre>
+
+</body>
+</html>
